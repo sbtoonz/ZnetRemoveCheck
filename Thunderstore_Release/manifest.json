@@ -1,0 +1,11 @@
+{
+  "namespace": "sbtoonz",
+  "name": "ZnetScene_RemoveObjects_SpamKiller",
+  "description": "A mod that aims to kill the red text sea when devs improperly use ZNetScene for prefabs",
+  "version_number": "1.0.0",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2105"
+  ],
+  "website_url": "https://github.com/sbtoonz/ZnetRemoveCheck.git",
+  "FullName": "sbtoonz-ZnetScene_RemoveObjects_SpamKiller"
+}

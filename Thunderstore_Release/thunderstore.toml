@@ -1,0 +1,28 @@
+[config]
+schemaVersion = "1.0.0"
+
+[package]
+namespace = "sbtoonz"
+name = "ZnetScene_RemoveObjects_SpamKiller"
+versionNumber = "1.0.0"
+description = "A mod that aims to kill the red text sea when devs improperly use ZNetScene for prefabs"
+websiteUrl = "https://github.com/sbtoonz/ZnetRemoveCheck.git"
+containsNsfwContent = false
+[package.dependencies]
+denikson-BepInExPack_Valheim = "5.4.2105"
+
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./"
+
+[[build.copy]]
+source = "./dist"
+target = "./"
+
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "valheim", ]
+categories = [  ]
